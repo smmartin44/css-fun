@@ -1,0 +1,45 @@
+#animated-title {
+    width: 200px;
+    margin: 50px;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    border: solid black 5px;
+    background-color: #bddfd1;
+
+    box-shadow: 10px -10px 0 -3px #92d6ba,
+        10px -10px,
+        20px -20px 0 -3px #67d7a8,
+        20px -20px;
+
+    transition: box-shadow 1s, top 1s, left 1s;
+    top: 0;
+    left: 0;
+}
+
+#animated-title:hover {
+    top: 20px;
+    left: 20px;
+    box-shadow: 0 0 0 -3px #92d6ba,
+        0 0,
+        0 0 0 -3px #67d7a8,
+        0 0;
+}
+
+#fun-shadow {
+    width: 200px;
+    margin: 50px;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px 5px rgb(70, 83, 178);
+    transition: box-shadow 1s;
+}
+
+#fun-shadow:hover {
+    box-shadow: 10px 10px 5px 5px rgb(70, 83, 178);
+}
